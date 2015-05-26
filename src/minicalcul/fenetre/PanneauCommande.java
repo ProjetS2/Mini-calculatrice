@@ -50,7 +50,7 @@ public class PanneauCommande extends JPanel {
     /** Label du mode */
     private JLabel mode;
     
-    /** Label de la flêche indiquant l'invite de commandes */ 
+    /** Label de la flèche indiquant l'invite de commandes */ 
     private JLabel fleche;
     
     /** Label du mode sur lequel on se situe */
@@ -107,13 +107,13 @@ public class PanneauCommande extends JPanel {
 
     /**
      * Applelée lorsque l'utilisateur clique sur le bouton valider ou appuie
-     * sur la touche ENTRER
+     * sur la touche ENTREE
      */
     public void commandeValidee() {
         
         // On contrôle d'abord si le champs n'est pas vide
         if (this.ligneDeCommande.getText().equals("")) {
-            // On montre à l'utilisateur que son actiona été prise en compte
+            // On montre à l'utilisateur que son action a été prise en compte
             this.laFenetre.ajoutLigneConsole("> "); 
             return; // Inutile de continuer
         }
@@ -125,7 +125,7 @@ public class PanneauCommande extends JPanel {
             return; // Inutile de continuer
         }
 
-        // On ajoute la commande à la sauvegarde et on met le cureseur à la fin
+        // On ajoute la commande à la sauvegarde et on met le curseur à la fin
         this.sauvegardeCommandes.add(this.ligneDeCommande.getText());
         this.positionSauvegarde = this.sauvegardeCommandes.size();
         
