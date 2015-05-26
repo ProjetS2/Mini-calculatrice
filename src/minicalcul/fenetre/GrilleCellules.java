@@ -101,7 +101,7 @@ public class GrilleCellules {
     }
 
     /**
-     * Acceseur à tableau
+     * Accesseur à tableau
      * @return tableau 
      */
     public JTextField[][] getTableau() {
