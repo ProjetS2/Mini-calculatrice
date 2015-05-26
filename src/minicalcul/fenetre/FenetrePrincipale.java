@@ -182,7 +182,7 @@ public class FenetrePrincipale extends JFrame {
     }
     
     /**
-     * Acceseur à lesOnglets
+     * Accesseur à lesOnglets
      * @return lesOnglets 
      */
     public JTabbedPane getLesOnglets() {
@@ -206,7 +206,7 @@ public class FenetrePrincipale extends JFrame {
     }
 
     /**
-     * Acceseur à laMemoire
+     * Accesseur à laMemoire
      * @return laMemoire 
      */
     public PanneauZones getLaMemoire() {
@@ -214,7 +214,7 @@ public class FenetrePrincipale extends JFrame {
     }
 
     /**
-     * Acceseur à leTableur
+     * Accesseur à leTableur
      * @return leTableur 
      */
     public PanneauTableur getLeTableur() {
@@ -222,7 +222,7 @@ public class FenetrePrincipale extends JFrame {
     }
 
     /**
-     * Acceseur à leMenu
+     * Accesseur à leMenu
      * @return leMenu 
      */
     public BarreDeMenu getLeMenu() {
